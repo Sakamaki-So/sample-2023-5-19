@@ -16,7 +16,7 @@ a {
 }
 body {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 16pt;
     color: #000000;
     line-height: 1;
     background-color: #ffffff;
@@ -84,12 +84,24 @@ img {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
+        position: relative;
     }
 
     .header-logo {
         width: 100px;
     }
 
+    .header-site-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        background-color: #736e62;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    
     .main {
         padding-top: 50px;
     }
@@ -120,7 +132,7 @@ img {
 }
 
 .copyright {
-    font-size: 14px;
+    font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
 }
